@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DicomAnonym - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/DicomAnonym.res" /d "NDEBUG" "E:\work\SF.net\DicomAnonymizer\DicomAnonym.rc"" 
+Creating temporary file "C:\DOCUME~1\sha\LOCALS~1\Temp\RSP506.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/DicomAnonym.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\work\SF.net\DicomAnonymizer\DicomAnonym.cpp"
+"E:\work\SF.net\DicomAnonymizer\DicomAnonymDlg.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\sha\LOCALS~1\Temp\RSP506.tmp" 
+Creating temporary file "C:\DOCUME~1\sha\LOCALS~1\Temp\RSP507.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/DicomAnonym.pdb" /machine:I386 /out:"Release/DicomAnonym.exe" /libpath:"..\..\AquariusWS-Main\lib" 
+.\Release\Anonymizer.obj
+.\Release\DicomAnonym.obj
+.\Release\DicomAnonymDlg.obj
+.\Release\ReportDlg.obj
+.\Release\StdAfx.obj
+.\Release\DicomAnonym.res
+]
+Creating command line "xilink6.exe @C:\DOCUME~1\sha\LOCALS~1\Temp\RSP507.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+DicomAnonym.cpp
+DicomAnonymDlg.cpp
+Linking...
+xilink6: executing 'C:\PROGRA~1\MICROS~3\VC98\bin\link.exe'
+Creating temporary file "C:\DOCUME~1\sha\LOCALS~1\Temp\RSP509.bat" with contents
+[
+@echo off
+copy DicomAnonym_Help.htm Release\DicomAnonym_Help.htm
+]
+Creating command line "C:\DOCUME~1\sha\LOCALS~1\Temp\RSP509.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+DicomAnonym.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
